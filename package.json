@@ -1,0 +1,30 @@
+{
+  "name": "tailwind tutorial",
+  "version": "1.0.0",
+  "description": "this is a test project on how to use tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"npx tailwindcss -i ./styles/tailwind.css -o ./styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chingkeziah/kezy.git"
+  },
+  "keywords": [
+    "tailwind",
+    "css",
+    "frontend",
+    "test",
+    "kezy"
+  ],
+  "author": "Ching Keziah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chingkeziah/kezy/issues"
+  },
+  "homepage": "https://github.com/Chingkeziah/kezy#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.6"
+  }
+}
